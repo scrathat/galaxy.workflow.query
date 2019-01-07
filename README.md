@@ -1,21 +1,15 @@
-# galaxy.wokflow.query
+# Galaxy wokflow query
+Search galaxy instances for workflows that are using a specific tool.
 
-## Project setup
+## Setup
+To gather the workflows from the galaxy instances in `hosts.json` run
 ```
-yarn install
+$ python workflows.py -t
 ```
+It will also start a test server to serve the resulting `workflows.json` and its directory. 
 
-### Compiles and hot-reloads for development
+Then run the client
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Lints and fixes files
-```
-yarn run lint
+$ cd client
+$ yarn run serve
 ```
