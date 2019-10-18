@@ -16,10 +16,9 @@
               @keyup.enter.native="onQuery()"
             />
             <b-input-group-append>
-              <b-btn
-                :disabled="!filter"
-                @click="filter = ''"
-              >Clear (esc)</b-btn>
+              <b-btn :disabled="!filter" @click="filter = ''"
+                >Clear (esc)</b-btn
+              >
             </b-input-group-append>
           </b-input-group>
         </b-form-group>

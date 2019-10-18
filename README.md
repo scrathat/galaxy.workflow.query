@@ -1,15 +1,21 @@
-# Galaxy wokflow query
+Galaxy wokflow query
+====================
+
 Search galaxy instances for workflows that are using a specific tool.
 
-## Setup
-To gather the workflows from the galaxy instances in `hosts.json` run
+Setup
+-----
+
+To gather the workflows from the galaxy instances in `hosts.json` and serve them on `localhost:8082` run
+
+```shell
+cd backend
+python workflows.py -t
 ```
-$ python workflows.py -t
-```
-It will also start a test server to serve the resulting `workflows.json` and its directory. 
 
 Then run the client
-```
-$ cd client
-$ yarn run serve
+
+```shell
+cd client
+yarn run serve
 ```
