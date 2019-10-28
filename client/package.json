@@ -13,11 +13,11 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.4",
-    "@vue/cli-plugin-eslint": "^4.0.4",
-    "@vue/cli-service": "^4.0.4",
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
     "babel-eslint": "^10.0.1",
-    "eslint": "^6.5.1",
+    "eslint": "^6.6.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "vue-template-compiler": "^2.5.17"
   },
