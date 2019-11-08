@@ -1,4 +1,4 @@
-""" This module can get workflows from galaxy instance. """
+""" This module can get workflows from a galaxy instance. """
 import json
 import urllib.error
 import urllib.parse
